@@ -65,6 +65,12 @@ ul {
   }
 }
 
+.LinkedIn-link {
+  color: #ffffff; /* set the color of the link to LinkedIn blue */
+  text-decoration: none; /* remove the underline */
+}
+
+
 @media only screen and (min-width: 769px) { /* styles for screen widths above 769px */
   body {
     font-size: 16px; /* increase font size for larger screens */
