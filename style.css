@@ -14,8 +14,9 @@ header {
 
 header {
   background-image: url('BG.jpg'); /* set the path to your image */
-  background-size: cover; /* set the background-size to cover the entire header */
-  background-position: center; /* center the background image */
+  background-size: contain; /* set the background-size to cover the entire header */
+  background-repeat: no-repeat;
+  background-position: center center; /* center the background image */
   height: 500px; /* set the height of the header */
   font-family: 'Segoe UI', Arial, sans-serif; /* set a separate font type for the header */
   color: #fff; /* set the color of the font to white */
