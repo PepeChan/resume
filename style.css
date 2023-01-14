@@ -18,7 +18,13 @@ section {
 }
 
 /* remove top margin of headings */
-h1, h2, h3 {
+h1, h2 {
+  text-align: center;
+  margin-top: 0;
+}
+
+h3 {
+  text-align: center;
   margin-top: 0;
 }
 
