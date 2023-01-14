@@ -3,14 +3,30 @@
 
 body {
   font-family: 'Roboto', Arial, sans-serif; /* using Roboto as the primary font */
-  color: #333; /* sets text color to a dark gray */
+  color: rgb(36, 36, 36); /* sets text color to a dark gray */
 }
 
 /* center header text and add margin at the bottom */
 header {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
+
+header {
+  background-image: url('BG.jpg'); /* set the path to your image */
+  background-size: cover; /* set the background-size to cover the entire header */
+  background-position: center; /* center the background image */
+  height: 500px; /* set the height of the header */
+  font-family: 'Segoe UI', Arial, sans-serif; /* set a separate font type for the header */
+  color: #fff; /* set the color of the font to white */
+  text-shadow: 1px 1px 2px #000; /* set the color of the font border to black */  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 
 /* add margin at the bottom of sections */
 section {
@@ -36,9 +52,28 @@ ul {
 
 /* Media Queries */
 @media only screen and (max-width: 768px) { /* styles for screen widths up to 768px */
-  /* you can add styles for smaller screens here, for example, change font size, rearrange elements, etc*/
+  body {
+    font-size: 14px; /* decrease font size for smaller screens */
+  }
+  header {
+    background-image: url('BG.jpg'); /* set the path to your image for smaller screens */
+    height: 200px; /* set the height of the header for smaller screens */
+    padding: 10px; /* add padding to header for smaller screens */
+  }
+  section {
+    padding: 10px; /* add padding to sections for smaller screens */
+  }
 }
 
 @media only screen and (min-width: 769px) { /* styles for screen widths above 769px */
-  /* you can add styles for larger screens here */
+  body {
+    font-size: 16px; /* increase font size for larger screens */
+  }
+  header {
+    padding: 20px; /* add padding to header for larger screens */
+  }
+  section {
+    padding: 20px; /* add padding to sections for larger screens */
+  }
 }
+
