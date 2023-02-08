@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
 body {
-  font-family: 'Segoe UI', Arial, sans-serif; /* using Roboto as the primary font */
+  font-family: 'Roboto', Arial, sans-serif; /* using Roboto as the primary font */
   color: rgb(36, 36, 36); /* sets text color to a dark gray */
 }
 
@@ -13,7 +13,7 @@ header {
 }
 
 header {
-  background-image: url('/BG.jpg'); /* set the path to your image */
+  background-image: url('/bin/images/BG.jpg'); /* set the path to your image */
   background-size: contain; /* set the background-size to cover the entire header */
   background-repeat: no-repeat;
   background-position: center center; /* center the background image */
