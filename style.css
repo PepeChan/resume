@@ -13,7 +13,7 @@ header {
 }
 
 header {
-  background-image: url('BG.jpg'); /* set the path to your image */
+  background-image: url('/BG.jpg'); /* set the path to your image */
   background-size: contain; /* set the background-size to cover the entire header */
   background-repeat: no-repeat;
   background-position: center center; /* center the background image */
