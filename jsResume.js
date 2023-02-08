@@ -1,15 +1,3 @@
-// Get the four sections
-//const workExperienceSection = document.querySelector('#work-experience');
-// const skillsSection = document.querySelector('#skills');
-// const studySection = document.querySelector('#study');
-// const personalSection = document.querySelector('#personal');
-
-// Get the four sections in the grid
-// const workExperienceGridItem = document.querySelector('#grid-item-work-experience');
-// const skillsGridItem = document.querySelector('#grid-item-skills');
-// const studyGridItem = document.querySelector('#grid-item-study');
-// const personalGridItem = document.querySelector('#grid-item-personal');
-
 const workExperience = document.getElementById("work-experience");
 const skills = document.getElementById("skills");
 const portfolio = document.getElementById('portfolio');
@@ -46,5 +34,29 @@ buttons.forEach(button => {
 
     // Scroll to the section
     section.scrollIntoView({ behavior: 'smooth'});
+  });
+});
+
+document.getElementById("workExperienceButton").addEventListener("click", function() {
+  document.getElementById("workExperience").scrollIntoView({
+    behavior: "smooth"
+  });
+});
+
+document.getElementById("skillsButton").addEventListener("click", function() {
+  document.getElementById("skills").scrollIntoView({
+    behavior: "smooth"
+  });
+});
+
+document.getElementById("showButton").addEventListener("click", function() {
+  document.getElementById("education").scrollIntoView({
+    behavior: "smooth"
+  });
+});
+
+document.getElementById("personalButton").addEventListener("click", function() {
+  document.getElementById("personalInfo").scrollIntoView({
+    behavior: "smooth"
   });
 });
