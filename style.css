@@ -2,14 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
 body {
-  font-family: 'Roboto', Arial, sans-serif; /* using Roboto as the primary font */
+  font-family: 'Segoe UI', Arial, sans-serif; /* using Roboto as the primary font */
   color: rgb(36, 36, 36); /* sets text color to a dark gray */
 }
 
 /* center header text and add margin at the bottom */
 header {
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 
 header {
@@ -92,9 +92,33 @@ ul {
 }
 
 .grid-item {
-  background-color: rgba(255, 255, 255, 0.8); /* gives the sections a semi-transparent white background */
-  padding: 20px; /* adds padding to the sections */
-  border-radius: 10px; /* rounds the corners of the sections */
+  background-color: rgba(185, 149, 149, 0.8); /* gives the sections a semi-transparent white background */
+  padding: 10px; /* adds padding to the sections */
+  border-radius: 0px; /* rounds the corners of the sections */
   text-align: center; /* centers the text within the sections */
-  cursor: pointer; /* changes the cursor to a hand icon to indicate it is clickable */
+  /*cursor: pointer; /* changes the cursor to a hand icon to indicate it is clickable */
+}
+
+.big-buttons {
+  display: flex;
+  justify-content: space-around;  
+  /*padding: 30px;*/
+  margin: 20px 0;
+}
+
+button {
+  padding: 20px 30px;
+  width: 200px;
+  background-color: antiquewhite;
+  color: #000;
+  font-size: 14px;
+  border: 1px solid #000;
+  border-radius: 0px;
+  text-align: center;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: aliceblue;
+  color: #000;
 }
