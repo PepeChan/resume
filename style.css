@@ -13,7 +13,7 @@ header {
 }
 
 header {
-  background-image: url('/BG.jpg'); /* set the path to your image */
+  background-image: url('bin/images/BG.jpg'); /* set the path to your image */
   background-size: contain; /* set the background-size to cover the entire header */
   background-repeat: no-repeat;
   background-position: center center; /* center the background image */
@@ -57,7 +57,7 @@ ul {
     font-size: 14px; /* decrease font size for smaller screens */
   }
   header {
-    background-image: url('BG.jpg'); /* set the path to your image for smaller screens */
+    background-image: url('/bin/images/BG.jpg'); /* set the path to your image for smaller screens */
     height: 200px; /* set the height of the header for smaller screens */
     padding: 10px; /* add padding to header for smaller screens */
   }
